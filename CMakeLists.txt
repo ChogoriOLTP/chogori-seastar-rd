@@ -740,6 +740,7 @@ target_include_directories (seastar
 
 set (Seastar_PRIVATE_CXX_FLAGS
   -fvisibility=hidden
+  -Wno-missing-attributes
   -UNDEBUG
   -Wall
   -Werror
